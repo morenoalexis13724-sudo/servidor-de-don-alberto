@@ -13,7 +13,9 @@ def crear_peritaje():
 # FEATURE INVENTARIO
 @app.route('/api/inventario', methods=['GET'])
 def inventario():
-    return {"mensaje": "Inventario en desarrollo"}
+
+    return {"mensaje": "Inventario integrado feature + producción"}
+
 
 
 if __name__ == '__main__':
